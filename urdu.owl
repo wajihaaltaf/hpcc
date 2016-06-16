@@ -1,0 +1,547 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY urdu "http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#" >
+    <!ENTITY noveljkp "http://www.semanticweb.org/bisma/ontologies/2016/2/noveljkp.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/bisma/ontologies/2016/2/noveljkp.owl#"
+     xml:base="http://www.semanticweb.org/bisma/ontologies/2016/2/noveljkp.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:urdu="http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#"
+     xmlns:noveljkp="http://www.semanticweb.org/bisma/ontologies/2016/2/noveljkp.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#تحریر_کردہ -->
+
+    <owl:ObjectProperty rdf:about="&urdu;تحریر_کردہ"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#تعلق -->
+
+    <owl:ObjectProperty rdf:about="&urdu;تعلق"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#جگہ_ہے -->
+
+    <owl:ObjectProperty rdf:about="&urdu;جگہ_ہے"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#دستیاب_ہے -->
+
+    <owl:ObjectProperty rdf:about="&urdu;دستیاب_ہے"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#شخص -->
+
+    <owl:ObjectProperty rdf:about="&urdu;شخص"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#ہے_ایک -->
+
+    <owl:ObjectProperty rdf:about="&urdu;ہے_ایک"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#ناول_تفصیل -->
+
+    <owl:DatatypeProperty rdf:about="&urdu;ناول_تفصیل">
+        <rdfs:subPropertyOf rdf:resource="&urdu;ناول_کئ_تفصیل"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#ناول_نگار -->
+
+    <owl:DatatypeProperty rdf:about="&urdu;ناول_نگار"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#ناول_نگار_فون_نمبر -->
+
+    <owl:DatatypeProperty rdf:about="&urdu;ناول_نگار_فون_نمبر">
+        <rdfs:subPropertyOf rdf:resource="&urdu;ناول_نگار"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#ناول_نگار_کئ_تفصیل -->
+
+    <owl:DatatypeProperty rdf:about="&urdu;ناول_نگار_کئ_تفصیل">
+        <rdfs:subPropertyOf rdf:resource="&urdu;ناول_نگار"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#ناول_نگار_کا_نام -->
+
+    <owl:DatatypeProperty rdf:about="&urdu;ناول_نگار_کا_نام">
+        <rdfs:subPropertyOf rdf:resource="&urdu;ناول_نگار"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#ناول_کئ_تفصیل -->
+
+    <owl:DatatypeProperty rdf:about="&urdu;ناول_کئ_تفصیل"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#پبلیش_کی_تاریخ -->
+
+    <owl:DatatypeProperty rdf:about="&urdu;پبلیش_کی_تاریخ">
+        <rdfs:subPropertyOf rdf:resource="&urdu;ناول_کئ_تفصیل"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#کردار -->
+
+    <owl:DatatypeProperty rdf:about="&urdu;کردار"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#کردار_نمبر -->
+
+    <owl:DatatypeProperty rdf:about="&urdu;کردار_نمبر">
+        <rdfs:subPropertyOf rdf:resource="&urdu;کردار"/>
+        <rdfs:domain rdf:resource="&urdu;کردار"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#کردار_کا_نام -->
+
+    <owl:DatatypeProperty rdf:about="&urdu;کردار_کا_نام">
+        <rdfs:domain rdf:resource="&urdu;کردار"/>
+        <rdfs:subPropertyOf rdf:resource="&urdu;کردار"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#کردار_کی_تفصیل -->
+
+    <owl:DatatypeProperty rdf:about="&urdu;کردار_کی_تفصیل">
+        <rdfs:subPropertyOf rdf:resource="&urdu;کردار"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#ترکی -->
+
+    <owl:Class rdf:about="&urdu;ترکی">
+        <rdfs:subClassOf rdf:resource="&urdu;مقامات"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#خاتون -->
+
+    <owl:Class rdf:about="&urdu;خاتون">
+        <rdfs:subClassOf rdf:resource="&urdu;کردار"/>
+        <owl:disjointWith rdf:resource="&urdu;مرد"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#دستیابی -->
+
+    <owl:Class rdf:about="&urdu;دستیابی">
+        <rdfs:subClassOf rdf:resource="&urdu;پبلشر"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#مرد -->
+
+    <owl:Class rdf:about="&urdu;مرد">
+        <rdfs:subClassOf rdf:resource="&urdu;کردار"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#مقامات -->
+
+    <owl:Class rdf:about="&urdu;مقامات">
+        <rdfs:subClassOf rdf:resource="&urdu;ناول"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#نام -->
+
+    <owl:Class rdf:about="&urdu;نام">
+        <rdfs:subClassOf rdf:resource="&urdu;ناول"/>
+        <rdfs:subClassOf rdf:resource="&urdu;ناول_نگار"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#ناول -->
+
+    <owl:Class rdf:about="&urdu;ناول"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#ناول_نگار -->
+
+    <owl:Class rdf:about="&urdu;ناول_نگار"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#پاکستان -->
+
+    <owl:Class rdf:about="&urdu;پاکستان">
+        <rdfs:subClassOf rdf:resource="&urdu;مقامات"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#پبلش_کی_تارہخ -->
+
+    <owl:Class rdf:about="&urdu;پبلش_کی_تارہخ">
+        <rdfs:subClassOf rdf:resource="&urdu;پبلشر"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#پبلشر -->
+
+    <owl:Class rdf:about="&urdu;پبلشر"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#پبلشر_نام -->
+
+    <owl:Class rdf:about="&urdu;پبلشر_نام">
+        <rdfs:subClassOf rdf:resource="&urdu;پبلشر"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#پبلشر_نمبر -->
+
+    <owl:Class rdf:about="&urdu;پبلشر_نمبر">
+        <rdfs:subClassOf rdf:resource="&urdu;پبلشر"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#کردار -->
+
+    <owl:Class rdf:about="&urdu;کردار">
+        <rdfs:subClassOf rdf:resource="&urdu;ناول"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#ارم -->
+
+    <owl:NamedIndividual rdf:about="&urdu;ارم">
+        <rdf:type rdf:resource="&urdu;خاتون"/>
+        <urdu:تعلق rdf:resource="&urdu;جنت_کے_پتے"/>
+        <urdu:ہے_ایک rdf:resource="&urdu;خاتون"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#اساما -->
+
+    <owl:NamedIndividual rdf:about="&urdu;اساما">
+        <rdf:type rdf:resource="&urdu;خاتون"/>
+        <urdu:تعلق rdf:resource="&urdu;پیرکامل"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#استمبول -->
+
+    <owl:NamedIndividual rdf:about="&urdu;استمبول">
+        <rdf:type rdf:resource="&urdu;ترکی"/>
+        <urdu:جگہ_ہے rdf:resource="&urdu;جنت_کے_پتے"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#امر_بیل -->
+
+    <owl:NamedIndividual rdf:about="&urdu;امر_بیل">
+        <rdf:type rdf:resource="&urdu;نام"/>
+        <urdu:تحریر_کردہ rdf:resource="&urdu;عمیرہ_احمد"/>
+        <urdu:ہے_ایک rdf:resource="&urdu;ناول"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#تاقسم -->
+
+    <owl:NamedIndividual rdf:about="&urdu;تاقسم">
+        <rdf:type rdf:resource="&urdu;ترکی"/>
+        <urdu:جگہ_ہے rdf:resource="&urdu;جنت_کے_پتے"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#جنت_کے_پتے -->
+
+    <owl:NamedIndividual rdf:about="&urdu;جنت_کے_پتے">
+        <rdf:type rdf:resource="&urdu;نام"/>
+        <urdu:ناول_تفصیل rdf:datatype="&xsd;string">    جنت کے پتّے ایک سماجی اردو ناول کی کہانی نگار ناول نگار نمرہ احمد کی طرف سے ہے ۔ جنت کے پتّے ہمت، حقیقت، جدوجہد اور عقیدہ ہے۔ جنت کے پتّے کی کردار حیا سلیمان جو ل ل بی تی طا لب علم ہوتی ہے، ایک لڑکی جو ابتدائی طور پر ایک جدید لڑکی بیان کی گئ یے۔ کہانی ایک پہلو کے موضوع کے ارد گرد گھومتی ہے۔ &quot;پردہ&quot;اور کس طرح قرآن مجید کی ایک آیت زندگی ہمیشہ کے لئے تبدیل کر سکتی ہے ۔ دوسری طرف کہانی کا ایک جاسوس لڑکا جہان کی زندگی اور اس فرض کے شدید اور سخت مطالبات دکھاتی ہے ۔</urdu:ناول_تفصیل>
+        <urdu:ہے_ایک rdf:resource="&urdu;ناول"/>
+        <urdu:تحریر_کردہ rdf:resource="&urdu;نمرہ_احمد"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#جہان_سکندر -->
+
+    <owl:NamedIndividual rdf:about="&urdu;جہان_سکندر">
+        <rdf:type rdf:resource="&urdu;مرد"/>
+        <urdu:تعلق rdf:resource="&urdu;جنت_کے_پتے"/>
+        <owl:sameAs rdf:resource="&urdu;عبدلرحمان_پاشا"/>
+        <urdu:ہے_ایک rdf:resource="&urdu;مرد"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#حیا -->
+
+    <owl:NamedIndividual rdf:about="&urdu;حیا">
+        <owl:sameAs rdf:resource="&urdu;حیا_سلیمان"/>
+        <urdu:ہے_ایک rdf:resource="&urdu;خاتون"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#حیا_سلیمان -->
+
+    <owl:NamedIndividual rdf:about="&urdu;حیا_سلیمان">
+        <rdf:type rdf:resource="&urdu;خاتون"/>
+        <urdu:کردار_نمبر rdf:datatype="&xsd;string">1</urdu:کردار_نمبر>
+        <urdu:کردار_کا_نام rdf:datatype="&xsd;string">برج ونگ سے منسلک ہیں۔ اپنے تحریری سفر کا آغاز انھوں نے خواتین کے ماہناموں سے کیا اور پھر ٹی وی انڈسٹری میں آ گئیں- ان کا پہلا ڈراما ‘‘وجود لاریب‘‘ انڈس ویژن سے 2005 میں آیا جس کے لئے انہوں نے بیسٹ رائٹر کا ایوارڈ لیا ۔ اس کے بعد ‘‘دام‘‘، ‘‘قید تنہائی‘‘ اور متعدد ڈرامے وہ لکھ چکی ہیں اور ان کے کئی ناول کی ڈرامائی تشکیل ہو چکی۔ ‘‘نور کا مسکن‘‘ کے نام سے ایک ریڈیو ڈراما بھی لکھا۔</urdu:کردار_کا_نام>
+        <urdu:کردار_کا_نام rdf:datatype="&xsd;string">حیا_سلیمان</urdu:کردار_کا_نام>
+        <urdu:تعلق rdf:resource="&urdu;جنت_کے_پتے"/>
+        <urdu:ہے_ایک rdf:resource="&urdu;خاتون"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#خاتون -->
+
+    <owl:NamedIndividual rdf:about="&urdu;خاتون">
+        <rdf:type rdf:resource="&urdu;خاتون"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#خدیجہ -->
+
+    <owl:NamedIndividual rdf:about="&urdu;خدیجہ">
+        <rdf:type rdf:resource="&urdu;خاتون"/>
+        <urdu:کردار_نمبر rdf:datatype="&xsd;string">2
+</urdu:کردار_نمبر>
+        <urdu:کردار_کا_نام rdf:datatype="&xsd;string">خدیجہ جہان</urdu:کردار_کا_نام>
+        <urdu:تعلق rdf:resource="&urdu;جنت_کے_پتے"/>
+        <urdu:ہے_ایک rdf:resource="&urdu;خاتون"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#زارا -->
+
+    <owl:NamedIndividual rdf:about="&urdu;زارا">
+        <rdf:type rdf:resource="&urdu;خاتون"/>
+        <urdu:تعلق rdf:resource="&urdu;جنت_کے_پتے"/>
+        <urdu:ہے_ایک rdf:resource="&urdu;خاتون"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#سالار_سکندر -->
+
+    <owl:NamedIndividual rdf:about="&urdu;سالار_سکندر">
+        <rdf:type rdf:resource="&urdu;مرد"/>
+        <urdu:تعلق rdf:resource="&urdu;پیرکامل"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#سلیمان -->
+
+    <owl:NamedIndividual rdf:about="&urdu;سلیمان">
+        <rdf:type rdf:resource="&urdu;مرد"/>
+        <urdu:تعلق rdf:resource="&urdu;جنت_کے_پتے"/>
+        <urdu:ہے_ایک rdf:resource="&urdu;مرد"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#عبدلرحمان_پاشا -->
+
+    <owl:NamedIndividual rdf:about="&urdu;عبدلرحمان_پاشا">
+        <rdf:type rdf:resource="&urdu;مرد"/>
+        <urdu:ہے_ایک rdf:resource="&urdu;مرد"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#علہزہ -->
+
+    <owl:NamedIndividual rdf:about="&urdu;علہزہ">
+        <rdf:type rdf:resource="&urdu;خاتون"/>
+        <urdu:تعلق rdf:resource="&urdu;امر_بیل"/>
+        <urdu:ہے_ایک rdf:resource="&urdu;خاتون"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#عمر_جہانگیر -->
+
+    <owl:NamedIndividual rdf:about="&urdu;عمر_جہانگیر">
+        <rdf:type rdf:resource="&urdu;مرد"/>
+        <urdu:تعلق rdf:resource="&urdu;امر_بیل"/>
+        <urdu:ہے_ایک rdf:resource="&urdu;مرد"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#عمیرہ_احمد -->
+
+    <owl:NamedIndividual rdf:about="&urdu;عمیرہ_احمد">
+        <rdf:type rdf:resource="&urdu;نام"/>
+        <urdu:ناول_نگار_فون_نمبر rdf:datatype="&xsd;string">1</urdu:ناول_نگار_فون_نمبر>
+        <urdu:ناول_نگار_کا_نام rdf:datatype="&xsd;string">Umera Ahmad</urdu:ناول_نگار_کا_نام>
+        <urdu:ناول_نگار_کئ_تفصیل rdf:datatype="&xsd;string">عمیرہ احمد مرے کالجسیالکوٹ سے انگریزی میں ماسٹرز کر کے آرمی پبلک کالج کے کیمبرج ونگ سے منسلک ہیں۔ اپنے تحریری سفر کا آغاز انھوں نے خواتین کے ماہناموں سے کیا اور پھر ٹی وی انڈسٹری میں آ گئیں- ان کا پہلا ڈراما ‘‘وجود لاریب‘‘ انڈس ویژن سے 2005 میں آیا جس کے لئے انہوں نے بیسٹ رائٹر کا ایوارڈ لیا ۔ اس کے بعد ‘‘دام‘‘، ‘‘قید تنہائی‘‘ اور متعدد ڈرامے وہ لکھ چکی ہیں اور ان کے کئی ناول کی ڈرامائی تشکیل ہو چکی۔ ‘‘نور کا مسکن‘‘ کے نام سے ایک ریڈیو ڈراما بھی لکھا۔</urdu:ناول_نگار_کئ_تفصیل>
+        <urdu:ہے_ایک rdf:resource="&urdu;ناول_نگار"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#فاطمہ -->
+
+    <owl:NamedIndividual rdf:about="&urdu;فاطمہ">
+        <rdf:type rdf:resource="&urdu;خاتون"/>
+        <urdu:تعلق rdf:resource="&urdu;جنت_کے_پتے"/>
+        <urdu:ہے_ایک rdf:resource="&urdu;خاتون"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#لاہور -->
+
+    <owl:NamedIndividual rdf:about="&urdu;لاہور">
+        <rdf:type rdf:resource="&urdu;پاکستان"/>
+        <urdu:جگہ_ہے rdf:resource="&urdu;امر_بیل"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#مرد -->
+
+    <owl:NamedIndividual rdf:about="&urdu;مرد">
+        <rdf:type rdf:resource="&urdu;مرد"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#ناول -->
+
+    <owl:NamedIndividual rdf:about="&urdu;ناول"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#ناول_نگار -->
+
+    <owl:NamedIndividual rdf:about="&urdu;ناول_نگار"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#نمرہ_احمد -->
+
+    <owl:NamedIndividual rdf:about="&urdu;نمرہ_احمد">
+        <rdf:type rdf:resource="&urdu;نام"/>
+        <urdu:ناول_نگار_فون_نمبر rdf:datatype="&xsd;string">2</urdu:ناول_نگار_فون_نمبر>
+        <urdu:ناول_نگار_کئ_تفصیل rdf:datatype="&xsd;string">عمیرہ احمد مرے کالجسیالکوٹ سے انگریزی میں ماسٹرز کر کے آرمی پبلک کالج کے کیمبرج ونگ سے منسلک ہیں۔ اپنے تحریری سفر کا آغاز انھوں نے خواتین کے ماہناموں سے کیا اور پھر ٹی وی انڈسٹری میں آ گئیں- ان کا پہلا ڈراما ‘‘وجود لاریب‘‘ انڈس ویژن سے 2005 میں آیا جس کے لئے انہوں نے بیسٹ رائٹر کا ایوارڈ لیا ۔ اس کے بعد ‘‘دام‘‘، ‘‘قید تنہائی‘‘ اور متعدد ڈرامے وہ لکھ چکی ہیں اور ان کے کئی ناول کی ڈرامائی تشکیل ہو چکی۔ ‘‘نور کا مسکن‘‘ کے نام سے ایک ریڈیو ڈراما بھی لکھا۔</urdu:ناول_نگار_کئ_تفصیل>
+        <urdu:ناول_نگار_کا_نام rdf:datatype="&xsd;string">نمرہ احمد</urdu:ناول_نگار_کا_نام>
+        <urdu:ہے_ایک rdf:resource="&urdu;ناول_نگار"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bisma/ontologies/2016/2/urdu.owl#پیرکامل -->
+
+    <owl:NamedIndividual rdf:about="&urdu;پیرکامل">
+        <urdu:ناول_تفصیل rdf:datatype="&xsd;string">پیر کاملﷺ‘‘ وہ آواز ہے وہ روشنی ہے جو زندگی میں ہمیں چاہیے
+یقینا ہدایت انھیں کو دی جاتی ہے جو ہدایت چاہتے ہیں
+اس کہانی کا مرکزی کردار امامہ ہے جو قادیانی گھرانے سے تعلق رکھتی ہے, لیکن جب اسے ہدایت ملتی ہے تو عشق رسولﷺ میں اپنا گھر چھوڑ دیتی ہے۔ سالار سکندر اس کی مدد کرتا ہے جو پیدائشی مسلمان ہے، لیکن اسلامی تعلیمات سے کوسوں دور۔ جس کی زندگی مذہب میں کوئی اہمیت نہیں رکھتا۔ گمراہی کے اندھیروں میں ڈوبا ہوا سالار۔ جلال انصر، امامہ کی دوست کا بھائی، عشق رسول کا دعویدار ہے۔ جو وقت آنے پر جھوٹا نکلا۔</urdu:ناول_تفصیل>
+        <urdu:تحریر_کردہ rdf:resource="&urdu;عمیرہ_احمد"/>
+        <urdu:ہے_ایک rdf:resource="&urdu;ناول"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
